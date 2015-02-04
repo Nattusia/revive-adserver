@@ -77,5 +77,5 @@ MAX_cookieUnpackCapping();
 if (empty($GLOBALS['_OA']['invocationType']) || $GLOBALS['_OA']['invocationType'] != 'xmlrpc') {
     OX_Delivery_Common_hook('postInit');
 }
-
+require_once MAX_PATH . '/www/logging/logging.php';
 ?>
